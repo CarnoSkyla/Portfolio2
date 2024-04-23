@@ -31,8 +31,6 @@ jobs:
         uses: stcalica/s3-upload@master
         with:
           bucket: s3-portfolio-v1
-          package: index.html
-          key: index
           AWS_REGION: eu-north-1
           AWS_SECRET_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
