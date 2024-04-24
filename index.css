@@ -92,10 +92,7 @@ ul
 }
 
 .header .header_sidenavigation {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(0, -50%);
+    padding-top: 57px;
     max-height: 100%;
 }
 
@@ -110,7 +107,7 @@ ul
 
 .separator {
     background-color: #004aad;
-    height: 160px;
+    height: 158px;
     width: 2px;
     margin-left: 18px;
 }
