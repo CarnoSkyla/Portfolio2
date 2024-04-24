@@ -35,4 +35,3 @@ jobs:
           AWS_S3_BUCKET: s3-portfolio-v1
           DISTRIBUTION_ID: 'EABFW1ZE1IT96'
           AWS_REGION: 'eu-north-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: 'public'
